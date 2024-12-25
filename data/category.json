@@ -1,0 +1,183 @@
+[
+    {
+      "category_id": 1,
+      "category_name": "Tech",
+      "description": "Latest news, trends, and discussions around technology, AI, gadgets, and innovations.",
+      "tags": ["AI", "2024", "future", "technology"]
+    },
+    {
+      "category_id": 2,
+      "category_name": "Travel",
+      "description": "Discover the best travel destinations, tips, guides, and experiences.",
+      "tags": ["travel", "destinations", "2024", "vacation"]
+    },
+    {
+      "category_id": 3,
+      "category_name": "Health & Fitness",
+      "description": "Updates on fitness, well-being, diets, and health practices for a balanced lifestyle.",
+      "tags": ["health", "fitness", "well-being", "nutrition"]
+    },
+    {
+      "category_id": 4,
+      "category_name": "Finance",
+      "description": "Financial advice, investment tips, and discussions on personal finance management.",
+      "tags": ["finance", "investment", "personal finance", "wealth"]
+    },
+    {
+      "category_id": 5,
+      "category_name": "Lifestyle",
+      "description": "Exploring lifestyle trends, from fashion to home decor and entertainment.",
+      "tags": ["lifestyle", "fashion", "home decor", "culture"]
+    },
+    {
+      "category_id": 6,
+      "category_name": "Food & Drink",
+      "description": "Recipes, food trends, health eating tips, and drink suggestions from around the world.",
+      "tags": ["food", "drink", "recipes", "cooking"]
+    },
+    {
+      "category_id": 7,
+      "category_name": "Sports",
+      "description": "News, events, tips, and stories covering various sports across the globe.",
+      "tags": ["sports", "events", "athletes", "fitness"]
+    },
+    {
+      "category_id": 8,
+      "category_name": "Entertainment",
+      "description": "Movies, music, TV shows, and celebrity gossip to keep you entertained.",
+      "tags": ["movies", "music", "celebrities", "tv shows"]
+    },
+    {
+      "category_id": 9,
+      "category_name": "Education",
+      "description": "Insights into learning, career development, student life, and online courses.",
+      "tags": ["education", "learning", "career", "students"]
+    },
+    {
+      "category_id": 10,
+      "category_name": "Environment",
+      "description": "Updates on climate change, sustainability, environmental conservation, and green innovations.",
+      "tags": ["environment", "climate change", "sustainability", "green tech"]
+    },
+    {
+      "category_id": 11,
+      "category_name": "Gaming",
+      "description": "Explore news, trends, and tips in the world of video games, from indie games to major franchises.",
+      "tags": ["gaming", "video games", "eSports", "2024"]
+    },
+    {
+      "category_id": 12,
+      "category_name": "Automotive",
+      "description": "Stay up-to-date with the latest automotive technology, car reviews, and industry news.",
+      "tags": ["automotive", "cars", "2024", "technology"]
+    },
+    {
+      "category_id": 13,
+      "category_name": "Parenting",
+      "description": "Insights, advice, and tips for modern parents on raising kids and family life.",
+      "tags": ["parenting", "family", "kids", "2024"]
+    },
+    {
+      "category_id": 14,
+      "category_name": "Art & Culture",
+      "description": "News, exhibitions, and stories about the world of art, culture, and creativity.",
+      "tags": ["art", "culture", "exhibitions", "creativity"]
+    },
+    {
+      "category_id": 15,
+      "category_name": "Music",
+      "description": "Explore the latest in the music industry, from new albums to emerging artists.",
+      "tags": ["music", "2024", "artists", "albums"]
+    },
+    {
+      "category_id": 16,
+      "category_name": "Politics",
+      "description": "Debates, discussions, and analysis on the political landscape around the world.",
+      "tags": ["politics", "2024", "elections", "news"]
+    },
+    {
+      "category_id": 17,
+      "category_name": "Technology & Gadgets",
+      "description": "In-depth reviews and trends on the latest gadgets and innovations in technology.",
+      "tags": ["gadgets", "tech reviews", "innovation", "2024"]
+    },
+    {
+      "category_id": 18,
+      "category_name": "DIY & Home Improvement",
+      "description": "Ideas, tutorials, and tips for creating and improving your living spaces.",
+      "tags": ["DIY", "home improvement", "2024", "projects"]
+    },
+    {
+      "category_id": 19,
+      "category_name": "Pets",
+      "description": "Advice, tips, and care guidelines for pet owners, from health tips to fun activities.",
+      "tags": ["pets", "dogs", "cats", "pet care"]
+    },
+    {
+      "category_id": 20,
+      "category_name": "Movies & TV Shows",
+      "description": "Discussions, reviews, and insights on the latest movies and TV series.",
+      "tags": ["movies", "tv shows", "reviews", "2024"]
+    },
+    {
+      "category_id": 21,
+      "category_name": "AI & Robotics",
+      "description": "Discover the latest advancements in AI and robotics, from machine learning to autonomous systems.",
+      "tags": ["AI", "robotics", "machine learning", "automation"]
+    },
+    {
+      "category_id": 22,
+      "category_name": "Health & Wellness",
+      "description": "Everything about physical and mental health, fitness tips, wellness trends, and holistic practices.",
+      "tags": ["health", "wellness", "fitness", "2024"]
+    },
+    {
+      "category_id": 23,
+      "category_name": "Photography",
+      "description": "Master the art of photography with tips, gear reviews, and inspiring photos from around the world.",
+      "tags": ["photography", "camera gear", "2024", "tech"]
+    },
+    {
+      "category_id": 24,
+      "category_name": "Sustainability",
+      "description": "Learn about sustainable living, eco-friendly habits, and innovations to help protect our planet.",
+      "tags": ["sustainability", "environment", "green energy", "2024"]
+    },
+    {
+      "category_id": 25,
+      "category_name": "Fitness",
+      "description": "Get fitness advice, workout routines, and nutritional tips to stay in shape and achieve your fitness goals.",
+      "tags": ["fitness", "exercise", "workouts", "health"]
+    },
+    {
+      "category_id": 26,
+      "category_name": "Food & Cooking",
+      "description": "Explore recipes, food reviews, and cooking tips to elevate your culinary skills.",
+      "tags": ["cooking", "recipes", "food", "2024"]
+    },
+    {
+      "category_id": 27,
+      "category_name": "Business & Entrepreneurship",
+      "description": "Advice and strategies for building a successful business, from startups to scaling.",
+      "tags": ["business", "entrepreneurship", "startups", "2024"]
+    },
+    {
+      "category_id": 28,
+      "category_name": "Science & Space",
+      "description": "Explore the latest scientific discoveries, space missions, and everything happening in the world of research.",
+      "tags": ["science", "space", "2024", "NASA"]
+    },
+    {
+      "category_id": 29,
+      "category_name": "Fashion & Style",
+      "description": "Stay on top of the latest trends in fashion, style guides, and outfit inspirations for every season.",
+      "tags": ["fashion", "style", "outfits", "2024"]
+    },
+    {
+      "category_id": 30,
+      "category_name": "Finance & Investing",
+      "description": "Get financial advice, investment strategies, and tips to manage your money effectively.",
+      "tags": ["finance", "investing", "stock market", "2024"]
+    }
+  ]
+  

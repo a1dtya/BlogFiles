@@ -1,0 +1,265 @@
+[
+    {
+      "author_id": 1,
+      "author_name": "John Doe",
+      "author_email": "john.doe@example.com",
+      "profile_image": "https://example.com/images/john-profile.jpg"
+    },
+    {
+      "author_id": 2,
+      "author_name": "Jane Smith",
+      "author_email": "jane.smith@example.com",
+      "profile_image": "https://example.com/images/jane-profile.jpg"
+    },
+    {
+      "author_id": 3,
+      "author_name": "Samuel White",
+      "author_email": "samuel.white@example.com",
+      "profile_image": "https://example.com/images/samuel-profile.jpg"
+    },
+    {
+      "author_id": 4,
+      "author_name": "Alice Brown",
+      "author_email": "alice.brown@example.com",
+      "profile_image": "https://example.com/images/alice-profile.jpg"
+    },
+    {
+      "author_id": 5,
+      "author_name": "David Green",
+      "author_email": "david.green@example.com",
+      "profile_image": "https://example.com/images/david-profile.jpg"
+    },
+    {
+      "author_id": 6,
+      "author_name": "Emily Adams",
+      "author_email": "emily.adams@example.com",
+      "profile_image": "https://example.com/images/emily-profile.jpg"
+    },
+    {
+      "author_id": 7,
+      "author_name": "George King",
+      "author_email": "george.king@example.com",
+      "profile_image": "https://example.com/images/george-profile.jpg"
+    },
+    {
+      "author_id": 8,
+      "author_name": "Olivia Martinez",
+      "author_email": "olivia.martinez@example.com",
+      "profile_image": "https://example.com/images/olivia-profile.jpg"
+    },
+    {
+      "author_id": 9,
+      "author_name": "Sophia Liu",
+      "author_email": "sophia.liu@example.com",
+      "profile_image": "https://example.com/images/sophia-profile.jpg"
+    },
+    {
+      "author_id": 10,
+      "author_name": "Lucas Scott",
+      "author_email": "lucas.scott@example.com",
+      "profile_image": "https://example.com/images/lucas-profile.jpg"
+    },
+    
+        {
+          "user_id": 11,
+          "first_name": "Riley",
+          "last_name": "James",
+          "email": "riley.james@example.com",
+          "profile_picture": "https://example.com/images/riley-james.jpg",
+          "bio": "Avid gamer and tech enthusiast.",
+          "favorite_category": "Gaming",
+          "joining_date": "2023-06-15"
+        },
+        {
+          "user_id": 12,
+          "first_name": "Aria",
+          "last_name": "Sullivan",
+          "email": "aria.sullivan@example.com",
+          "profile_picture": "https://example.com/images/aria-sullivan.jpg",
+          "bio": "Automotive expert with a passion for fast cars.",
+          "favorite_category": "Automotive",
+          "joining_date": "2023-08-22"
+        },
+        {
+          "user_id": 13,
+          "first_name": "Leo",
+          "last_name": "Kim",
+          "email": "leo.kim@example.com",
+          "profile_picture": "https://example.com/images/leo-kim.jpg",
+          "bio": "Political analyst, making sense of current events.",
+          "favorite_category": "Politics",
+          "joining_date": "2023-09-05"
+        },
+        {
+          "user_id": 14,
+          "first_name": "Maya",
+          "last_name": "Taylor",
+          "email": "maya.taylor@example.com",
+          "profile_picture": "https://example.com/images/maya-taylor.jpg",
+          "bio": "Music lover and passionate about the latest albums.",
+          "favorite_category": "Music",
+          "joining_date": "2023-09-10"
+        },
+        {
+          "user_id": 15,
+          "first_name": "Jasper",
+          "last_name": "Martin",
+          "email": "jasper.martin@example.com",
+          "profile_picture": "https://example.com/images/jasper-martin.jpg",
+          "bio": "Involved in art and culture discussions, and a collector.",
+          "favorite_category": "Art & Culture",
+          "joining_date": "2023-09-13"
+        },
+        {
+          "user_id": 16,
+          "first_name": "Elena",
+          "last_name": "Lopez",
+          "email": "elena.lopez@example.com",
+          "profile_picture": "https://example.com/images/elena-lopez.jpg",
+          "bio": "Parent and lifestyle coach, sharing advice for young parents.",
+          "favorite_category": "Parenting",
+          "joining_date": "2023-10-04"
+        },
+        {
+          "user_id": 17,
+          "first_name": "Nash",
+          "last_name": "Roberts",
+          "email": "nash.roberts@example.com",
+          "profile_picture": "https://example.com/images/nash-roberts.jpg",
+          "bio": "Engineer working on next-gen gadgets and technology.",
+          "favorite_category": "Technology & Gadgets",
+          "joining_date": "2023-10-10"
+        },
+        {
+          "user_id": 18,
+          "first_name": "Clara",
+          "last_name": "Garcia",
+          "email": "clara.garcia@example.com",
+          "profile_picture": "https://example.com/images/clara-garcia.jpg",
+          "bio": "DIY enthusiast, always working on the next home project.",
+          "favorite_category": "DIY & Home Improvement",
+          "joining_date": "2023-10-15"
+        },
+        {
+          "user_id": 19,
+          "first_name": "Toby",
+          "last_name": "Green",
+          "email": "toby.green@example.com",
+          "profile_picture": "https://example.com/images/toby-green.jpg",
+          "bio": "Pet lover and advocate for animal well-being.",
+          "favorite_category": "Pets",
+          "joining_date": "2023-10-18"
+        },
+        {
+          "user_id": 20,
+          "first_name": "Oliver",
+          "last_name": "Richards",
+          "email": "oliver.richards@example.com",
+          "profile_picture": "https://example.com/images/oliver-richards.jpg",
+          "bio": "Movie buff with a focus on TV shows and streaming content.",
+          "favorite_category": "Movies & TV Shows",
+          "joining_date": "2023-10-25"
+        },
+        
+            {
+              "user_id": 21,
+              "first_name": "Sophia",
+              "last_name": "Turner",
+              "email": "sophia.turner@example.com",
+              "profile_picture": "https://example.com/images/sophia-turner.jpg",
+              "bio": "Data scientist with a keen interest in AI and machine learning.",
+              "favorite_category": "AI & Robotics",
+              "joining_date": "2023-11-02"
+            },
+            {
+              "user_id": 22,
+              "first_name": "Noah",
+              "last_name": "Adams",
+              "email": "noah.adams@example.com",
+              "profile_picture": "https://example.com/images/noah-adams.jpg",
+              "bio": "Health tech researcher passionate about digital health solutions.",
+              "favorite_category": "Health & Wellness",
+              "joining_date": "2023-11-07"
+            },
+            {
+              "user_id": 23,
+              "first_name": "Mason",
+              "last_name": "Collins",
+              "email": "mason.collins@example.com",
+              "profile_picture": "https://example.com/images/mason-collins.jpg",
+              "bio": "Avid photographer and travel lover sharing tips on tech and lenses.",
+              "favorite_category": "Photography",
+              "joining_date": "2023-11-11"
+            },
+            {
+              "user_id": 24,
+              "first_name": "Amelia",
+              "last_name": "Parker",
+              "email": "amelia.parker@example.com",
+              "profile_picture": "https://example.com/images/amelia-parker.jpg",
+              "bio": "Environmental advocate with a deep passion for sustainable technologies.",
+              "favorite_category": "Sustainability",
+              "joining_date": "2023-11-15"
+            },
+            {
+              "user_id": 25,
+              "first_name": "James",
+              "last_name": "Miller",
+              "email": "james.miller@example.com",
+              "profile_picture": "https://example.com/images/james-miller.jpg",
+              "bio": "Fitness junkie with a mission to inspire people to move and stay healthy.",
+              "favorite_category": "Fitness",
+              "joining_date": "2023-11-20"
+            },
+            {
+              "user_id": 26,
+              "first_name": "Chloe",
+              "last_name": "Evans",
+              "email": "chloe.evans@example.com",
+              "profile_picture": "https://example.com/images/chloe-evans.jpg",
+              "bio": "Culinary expert sharing delicious and easy-to-follow recipes for all ages.",
+              "favorite_category": "Food & Cooking",
+              "joining_date": "2023-12-01"
+            },
+            {
+              "user_id": 27,
+              "first_name": "Ethan",
+              "last_name": "King",
+              "email": "ethan.king@example.com",
+              "profile_picture": "https://example.com/images/ethan-king.jpg",
+              "bio": "Entrepreneur passionate about startups, business growth, and marketing strategies.",
+              "favorite_category": "Business & Entrepreneurship",
+              "joining_date": "2023-12-05"
+            },
+            {
+              "user_id": 28,
+              "first_name": "Zoe",
+              "last_name": "Young",
+              "email": "zoe.young@example.com",
+              "profile_picture": "https://example.com/images/zoe-young.jpg",
+              "bio": "Astronomy enthusiast, covering the latest space discoveries and missions.",
+              "favorite_category": "Science & Space",
+              "joining_date": "2023-12-10"
+            },
+            {
+              "user_id": 29,
+              "first_name": "Lily",
+              "last_name": "Wright",
+              "email": "lily.wright@example.com",
+              "profile_picture": "https://example.com/images/lily-wright.jpg",
+              "bio": "Fashion blogger always seeking new ways to combine elegance and comfort.",
+              "favorite_category": "Fashion & Style",
+              "joining_date": "2023-12-15"
+            },
+            {
+              "user_id": 30,
+              "first_name": "Lucas",
+              "last_name": "Johnson",
+              "email": "lucas.johnson@example.com",
+              "profile_picture": "https://example.com/images/lucas-johnson.jpg",
+              "bio": "Financial analyst, focused on emerging markets and investment opportunities.",
+              "favorite_category": "Finance & Investing",
+              "joining_date": "2023-12-20"
+            }
+          ]
+          
