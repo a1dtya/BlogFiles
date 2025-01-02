@@ -1,265 +1,465 @@
 [
-    {
-      "author_id": 1,
-      "author_name": "John Doe",
-      "author_email": "john.doe@example.com",
-      "profile_image": "https://example.com/images/john-profile.jpg"
+  {
+    "author_id": 1,
+    "author_name": "John Doe",
+    "author_email": "john.doe@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1606413712024-0df0371d35a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGFwcHklMjBmYWNlfGVufDB8MXwwfHx8Mg%3D%3D",
+    "birthplace": "New York, USA",
+    "bio": "John Doe is an experienced software developer and blogger. He writes extensively about technology, programming, and software engineering.",
+    "date_of_birth": "1985-03-15",
+    "social_media": {
+      "twitter": "https://twitter.com/johndoe",
+      "facebook": "https://facebook.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
-    {
-      "author_id": 2,
-      "author_name": "Jane Smith",
-      "author_email": "jane.smith@example.com",
-      "profile_image": "https://example.com/images/jane-profile.jpg"
+    "website": "https://johndoe.dev"
+  },
+  {
+    "author_id": 2,
+    "author_name": "Jane Smith",
+    "author_email": "jane.smith@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmVzc2lvbmFsJTIwcHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDI%3D",
+    "birthplace": "Los Angeles, USA",
+    "bio": "Jane Smith is a writer and digital marketing expert. She specializes in content creation, SEO, and blogging strategies.",
+    "date_of_birth": "1990-07-22",
+    "social_media": {
+      "twitter": "https://twitter.com/janesmith",
+      "facebook": "https://facebook.com/janesmith",
+      "linkedin": "https://linkedin.com/in/janesmith"
     },
-    {
-      "author_id": 3,
-      "author_name": "Samuel White",
-      "author_email": "samuel.white@example.com",
-      "profile_image": "https://example.com/images/samuel-profile.jpg"
+    "website": "https://janesmith.com"
+  },
+  {
+    "author_id": 3,
+    "author_name": "Samuel White",
+    "author_email": "samuel.white@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1639747279286-c07eecb47a0b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+    "birthplace": "Chicago, USA",
+    "bio": "Samuel White is a freelance graphic designer and photographer. He shares insights about creativity, design, and visual storytelling.",
+    "date_of_birth": "1982-11-05",
+    "social_media": {
+      "twitter": "https://twitter.com/samuelwhite",
+      "facebook": "https://facebook.com/samuelwhite",
+      "linkedin": "https://linkedin.com/in/samuelwhite"
     },
-    {
-      "author_id": 4,
-      "author_name": "Alice Brown",
-      "author_email": "alice.brown@example.com",
-      "profile_image": "https://example.com/images/alice-profile.jpg"
+    "website": "https://samuelwhite.com"
+  },
+  {
+    "author_id": 4,
+    "author_name": "Alice Brown",
+    "author_email": "alice.brown@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1639591903821-9b5e38f97bbd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+    "birthplace": "San Francisco, USA",
+    "bio": "Alice Brown is a renowned digital artist who specializes in web design and user experience (UX). She is passionate about creating seamless user interfaces.",
+    "date_of_birth": "1992-05-10",
+    "social_media": {
+      "twitter": "https://twitter.com/alicebrown",
+      "facebook": "https://facebook.com/alicebrown",
+      "linkedin": "https://linkedin.com/in/alicebrown"
     },
-    {
-      "author_id": 5,
-      "author_name": "David Green",
-      "author_email": "david.green@example.com",
-      "profile_image": "https://example.com/images/david-profile.jpg"
+    "website": "https://alicebrown.design"
+  },
+
+
+  {
+    "author_id": 5,
+    "author_name": "David Green",
+    "author_email": "david.green@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1638016329956-1127c6e4c96f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+    "birthplace": "Miami, USA",
+    "bio": "David Green is a travel writer and photographer. He shares his journey through beautiful landscapes and unique cultures around the world.",
+    "date_of_birth": "1988-02-18",
+    "social_media": {
+      "twitter": "https://twitter.com/davidgreen",
+      "facebook": "https://facebook.com/davidgreen",
+      "linkedin": "https://linkedin.com/in/davidgreen"
     },
-    {
-      "author_id": 6,
-      "author_name": "Emily Adams",
-      "author_email": "emily.adams@example.com",
-      "profile_image": "https://example.com/images/emily-profile.jpg"
+    "website": "https://davidgreentravel.com"
+  },
+
+  {
+    "author_id": 6,
+    "author_name": "Emily Adams",
+    "author_email": "emily.adams@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1650803075918-efbee311735d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+    "birthplace": "Boston, USA",
+    "bio": "Emily Adams is a passionate content writer with expertise in travel and lifestyle blogging. She enjoys sharing her adventures through words and photos.",
+    "date_of_birth": "1993-09-12",
+    "social_media": {
+      "twitter": "https://twitter.com/emilyadams",
+      "facebook": "https://facebook.com/emilyadams",
+      "linkedin": "https://linkedin.com/in/emilyadams"
     },
-    {
-      "author_id": 7,
-      "author_name": "George King",
-      "author_email": "george.king@example.com",
-      "profile_image": "https://example.com/images/george-profile.jpg"
+    "website": "https://emilyadamswrites.com"
+  },
+
+  {
+    "author_id": 7,
+    "author_name": "George King",
+    "author_email": "george.king@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1627987912821-fd877d0144f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+    "birthplace": "Seattle, USA",
+    "bio": "George King is an experienced marketer and writer, focusing on SEO strategies and online growth. He loves helping businesses increase their online presence.",
+    "date_of_birth": "1987-01-25",
+    "social_media": {
+      "twitter": "https://twitter.com/georgeking",
+      "facebook": "https://facebook.com/georgeking",
+      "linkedin": "https://linkedin.com/in/georgeking"
     },
-    {
-      "author_id": 8,
-      "author_name": "Olivia Martinez",
-      "author_email": "olivia.martinez@example.com",
-      "profile_image": "https://example.com/images/olivia-profile.jpg"
+    "website": "https://georgekingmarketing.com"
+  },
+  {
+    "author_id": 8,
+    "author_name": "Olivia Martinez",
+    "author_email": "olivia.martinez@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1674490364497-ee1f32e4cb4c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGFwcHklMjBmYWNlfGVufDB8MXwwfHx8Mg%3D%3D",
+    "birthplace": "Austin, USA",
+    "bio": "Olivia Martinez is a freelance photographer and blogger. She specializes in lifestyle and fashion photography, capturing the essence of beauty in everyday moments.",
+    "date_of_birth": "1995-03-03",
+    "social_media": {
+      "twitter": "https://twitter.com/oliviamartinez",
+      "facebook": "https://facebook.com/oliviamartinez",
+      "linkedin": "https://linkedin.com/in/oliviamartinez"
     },
-    {
-      "author_id": 9,
-      "author_name": "Sophia Liu",
-      "author_email": "sophia.liu@example.com",
-      "profile_image": "https://example.com/images/sophia-profile.jpg"
+    "website": "https://oliviamartinezphotos.com"
+  },
+  {
+    "author_id": 9,
+    "author_name": "Sophia Liu",
+    "author_email": "sophia.liu@example.com",
+    "profile_image": "https://images.unsplash.com/photo-1699480222786-adaba3943be7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFwcHklMjBmYWNlfGVufDB8MXwwfHx8Mg%3D%3D",
+    "birthplace": "Toronto, Canada",
+    "bio": "Sophia Liu is an environmental activist and writer. She advocates for sustainable living and frequently blogs about eco-friendly lifestyles and green initiatives.",
+    "date_of_birth": "1989-11-17",
+    "social_media": {
+      "twitter": "https://twitter.com/sophialiu",
+      "facebook": "https://facebook.com/sophialiu",
+      "linkedin": "https://linkedin.com/in/sophialiu"
     },
+    "website": "https://sophialiu.org"
+  },
     {
       "author_id": 10,
       "author_name": "Lucas Scott",
       "author_email": "lucas.scott@example.com",
-      "profile_image": "https://example.com/images/lucas-profile.jpg"
+      "profile_image": "https://images.unsplash.com/photo-1678726716469-91f527c06e54?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+      "birthplace": "Vancouver, Canada",
+      "bio": "Lucas Scott is a tech enthusiast and software developer. He is passionate about open-source technologies and writes tutorials to help others learn programming.",
+      "date_of_birth": "1990-06-30",
+      "social_media": {
+        "twitter": "https://twitter.com/lucasscott",
+        "facebook": "https://facebook.com/lucasscott",
+        "linkedin": "https://linkedin.com/in/lucasscott"
+      },
+      "website": "https://lucasscottdev.com"
     },
+
     
+    
+      {
+        "author_id": 11,
+        "author_name": "Riley James",
+        "author_email": "riley.james@example.com",
+        "profile_image": "https://images.unsplash.com/photo-1512849934327-1cf5bf8a5ccc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGFwcHklMjBmYWNlfGVufDB8MXwwfHx8Mg%3D%3D",
+        "birthplace": "Los Angeles, USA",
+        "bio": "Avid gamer and tech enthusiast. Always seeking the latest in gaming and technology news.",
+        "date_of_birth": "1992-04-14",
+        "social_media": {
+          "twitter": "https://twitter.com/rileyjames",
+          "facebook": "https://facebook.com/rileyjames",
+          "linkedin": "https://linkedin.com/in/rileyjames"
+        },
+        "website": "https://rileyjamesgaming.com"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Aria Sullivan",
+        "author_email": "aria.sullivan@example.com",
+        "profile_image": "https://images.unsplash.com/photo-1733141732218-c079bf8bb1fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+        "birthplace": "Detroit, USA",
+        "bio": "Automotive expert with a passion for fast cars. Enthusiastic about the latest industry developments and vehicle designs.",
+        "date_of_birth": "1988-11-02",
+        "social_media": {
+          "twitter": "https://twitter.com/ariasullivan",
+          "facebook": "https://facebook.com/ariasullivan",
+          "linkedin": "https://linkedin.com/in/ariasullivan"
+        },
+        "website": "https://ariasullivanauto.com"
+      },
+      {
+        "author_id": 13,
+        "author_name": "Leo Kim",
+        "author_email": "leo.kim@example.com",
+        "profile_image": "https://images.unsplash.com/photo-1616581932236-31c2598cc53c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+        "birthplace": "Seoul, South Korea",
+        "bio": "Political analyst, making sense of current events and trends. Passionate about global politics and policy analysis.",
+        "date_of_birth": "1990-08-19",
+        "social_media": {
+          "twitter": "https://twitter.com/leokim",
+          "facebook": "https://facebook.com/leokim",
+          "linkedin": "https://linkedin.com/in/leokim"
+        },
+        "website": "https://leokimpolitics.com"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Maya Taylor",
+        "author_email": "maya.taylor@example.com",
+        "profile_image": "https://images.unsplash.com/photo-1625519473931-789c42874e4b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+        "birthplace": "London, UK",
+        "bio": "Music lover and passionate about the latest albums. Always exploring new genres and sharing recommendations.",
+        "date_of_birth": "1995-06-28",
+        "social_media": {
+          "twitter": "https://twitter.com/mayataylor",
+          "facebook": "https://facebook.com/mayataylor",
+          "linkedin": "https://linkedin.com/in/mayataylor"
+        },
+        "website": "https://mayataylormusic.com"
+      },
+      {
+        "author_id": 15,
+        "author_name": "Jasper Martin",
+        "author_email": "jasper.martin@example.com",
+        "profile_image": "https://images.unsplash.com/photo-1560365163-3e8d64e762ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+        "birthplace": "Sydney, Australia",
+        "bio": "Involved in art and culture discussions, and a collector of contemporary art. Passionate about visual expression and creativity.",
+        "date_of_birth": "1993-02-12",
+        "social_media": {
+          "twitter": "https://twitter.com/jaspermartin",
+          "facebook": "https://facebook.com/jaspermartin",
+          "linkedin": "https://linkedin.com/in/jaspermartin"
+        },
+        "website": "https://jaspermartinart.com"
+      },
+
         {
-          "user_id": 11,
-          "first_name": "Riley",
-          "last_name": "James",
-          "email": "riley.james@example.com",
-          "profile_picture": "https://example.com/images/riley-james.jpg",
-          "bio": "Avid gamer and tech enthusiast.",
-          "favorite_category": "Gaming",
-          "joining_date": "2023-06-15"
+          "author_id": 16,
+          "author_name": "Elena Lopez",
+          "author_email": "elena.lopez@example.com",
+          "profile_image": "https://images.unsplash.com/photo-1712571354493-a249035399e0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+          "birthplace": "Madrid, Spain",
+          "bio": "Parent and lifestyle coach, sharing advice for young parents. Focused on providing tools for healthier family dynamics.",
+          "date_of_birth": "1985-05-22",
+          "social_media": {
+            "twitter": "https://twitter.com/elenalopez",
+            "facebook": "https://facebook.com/elenalopez",
+            "linkedin": "https://linkedin.com/in/elenalopez"
+          },
+          "website": "https://elenalopezcoaching.com"
         },
         {
-          "user_id": 12,
-          "first_name": "Aria",
-          "last_name": "Sullivan",
-          "email": "aria.sullivan@example.com",
-          "profile_picture": "https://example.com/images/aria-sullivan.jpg",
-          "bio": "Automotive expert with a passion for fast cars.",
-          "favorite_category": "Automotive",
-          "joining_date": "2023-08-22"
+          "author_id": 17,
+          "author_name": "Nash Roberts",
+          "author_email": "nash.roberts@example.com",
+          "profile_image": "https://images.unsplash.com/photo-1691422078209-8ad9e1cdf159?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+          "birthplace": "San Francisco, USA",
+          "bio": "Engineer working on next-gen gadgets and technology. Passionate about developing solutions that enhance daily life.",
+          "date_of_birth": "1990-11-10",
+          "social_media": {
+            "twitter": "https://twitter.com/nashroberts",
+            "facebook": "https://facebook.com/nashroberts",
+            "linkedin": "https://linkedin.com/in/nashroberts"
+          },
+          "website": "https://nashrobertstech.com"
         },
         {
-          "user_id": 13,
-          "first_name": "Leo",
-          "last_name": "Kim",
-          "email": "leo.kim@example.com",
-          "profile_picture": "https://example.com/images/leo-kim.jpg",
-          "bio": "Political analyst, making sense of current events.",
-          "favorite_category": "Politics",
-          "joining_date": "2023-09-05"
+          "author_id": 18,
+          "author_name": "Clara Garcia",
+          "author_email": "clara.garcia@example.com",
+          "profile_image": "https://images.unsplash.com/photo-1598956066123-a6f006500ca4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+          "birthplace": "Barcelona, Spain",
+          "bio": "DIY enthusiast, always working on the next home project. Enjoys sharing practical tips and creative ideas for home improvement.",
+          "date_of_birth": "1988-09-30",
+          "social_media": {
+            "twitter": "https://twitter.com/claragarcia",
+            "facebook": "https://facebook.com/claragarcia",
+            "linkedin": "https://linkedin.com/in/claragarcia"
+          },
+          "website": "https://claragarciadiy.com"
         },
         {
-          "user_id": 14,
-          "first_name": "Maya",
-          "last_name": "Taylor",
-          "email": "maya.taylor@example.com",
-          "profile_picture": "https://example.com/images/maya-taylor.jpg",
-          "bio": "Music lover and passionate about the latest albums.",
-          "favorite_category": "Music",
-          "joining_date": "2023-09-10"
+          "author_id": 19,
+          "author_name": "Toby Green",
+          "author_email": "toby.green@example.com",
+          "profile_image": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzl8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+          "birthplace": "Boston, USA",
+          "bio": "Pet lover and advocate for animal well-being. Dedicated to improving the lives of pets and educating owners on animal care.",
+          "date_of_birth": "1994-02-17",
+          "social_media": {
+            "twitter": "https://twitter.com/tobygreen",
+            "facebook": "https://facebook.com/tobygreen",
+            "linkedin": "https://linkedin.com/in/tobygreen"
+          },
+          "website": "https://tobygreenpets.com"
         },
         {
-          "user_id": 15,
-          "first_name": "Jasper",
-          "last_name": "Martin",
-          "email": "jasper.martin@example.com",
-          "profile_picture": "https://example.com/images/jasper-martin.jpg",
-          "bio": "Involved in art and culture discussions, and a collector.",
-          "favorite_category": "Art & Culture",
-          "joining_date": "2023-09-13"
+          "author_id": 20,
+          "author_name": "Oliver Richards",
+          "author_email": "oliver.richards@example.com",
+          "profile_image": "https://images.unsplash.com/photo-1525186402429-b4ff38bedec6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+          "birthplace": "Los Angeles, USA",
+          "bio": "Movie buff with a focus on TV shows and streaming content. Loves reviewing the latest shows and recommending must-watch content.",
+          "date_of_birth": "1992-12-05",
+          "social_media": {
+            "twitter": "https://twitter.com/oliverrichards",
+            "facebook": "https://facebook.com/oliverrichards",
+            "linkedin": "https://linkedin.com/in/oliverrichards"
+          },
+          "website": "https://oliverrichardsmovies.com"
         },
-        {
-          "user_id": 16,
-          "first_name": "Elena",
-          "last_name": "Lopez",
-          "email": "elena.lopez@example.com",
-          "profile_picture": "https://example.com/images/elena-lopez.jpg",
-          "bio": "Parent and lifestyle coach, sharing advice for young parents.",
-          "favorite_category": "Parenting",
-          "joining_date": "2023-10-04"
-        },
-        {
-          "user_id": 17,
-          "first_name": "Nash",
-          "last_name": "Roberts",
-          "email": "nash.roberts@example.com",
-          "profile_picture": "https://example.com/images/nash-roberts.jpg",
-          "bio": "Engineer working on next-gen gadgets and technology.",
-          "favorite_category": "Technology & Gadgets",
-          "joining_date": "2023-10-10"
-        },
-        {
-          "user_id": 18,
-          "first_name": "Clara",
-          "last_name": "Garcia",
-          "email": "clara.garcia@example.com",
-          "profile_picture": "https://example.com/images/clara-garcia.jpg",
-          "bio": "DIY enthusiast, always working on the next home project.",
-          "favorite_category": "DIY & Home Improvement",
-          "joining_date": "2023-10-15"
-        },
-        {
-          "user_id": 19,
-          "first_name": "Toby",
-          "last_name": "Green",
-          "email": "toby.green@example.com",
-          "profile_picture": "https://example.com/images/toby-green.jpg",
-          "bio": "Pet lover and advocate for animal well-being.",
-          "favorite_category": "Pets",
-          "joining_date": "2023-10-18"
-        },
-        {
-          "user_id": 20,
-          "first_name": "Oliver",
-          "last_name": "Richards",
-          "email": "oliver.richards@example.com",
-          "profile_picture": "https://example.com/images/oliver-richards.jpg",
-          "bio": "Movie buff with a focus on TV shows and streaming content.",
-          "favorite_category": "Movies & TV Shows",
-          "joining_date": "2023-10-25"
-        },
+            
         
+          {
+            "author_id": 21,
+            "author_name": "Sophia Turner",
+            "author_email": "sophia.turner@example.com",
+            "profile_image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+            "birthplace": "London, UK",
+            "bio": "Data scientist with a keen interest in AI and machine learning. Focused on creating models that make a meaningful impact in business and society.",
+            "date_of_birth": "1991-04-14",
+            "social_media": {
+              "twitter": "https://twitter.com/sophiaturner",
+              "facebook": "https://facebook.com/sophiaturner",
+              "linkedin": "https://linkedin.com/in/sophiaturner"
+            },
+            "website": "https://sophiaturnerai.com"
+          },
+          {
+            "author_id": 22,
+            "author_name": "Noah Adams",
+            "author_email": "noah.adams@example.com",
+            "profile_image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+            "birthplace": "New York, USA",
+            "bio": "Health tech researcher passionate about digital health solutions. Interested in exploring innovations in wearable devices and health data analytics.",
+            "date_of_birth": "1990-08-25",
+            "social_media": {
+              "twitter": "https://twitter.com/noahadams",
+              "facebook": "https://facebook.com/noahadams",
+              "linkedin": "https://linkedin.com/in/noahadams"
+            },
+            "website": "https://noahadamshealth.com"
+          },
+          {
+            "author_id": 23,
+            "author_name": "Mason Collins",
+            "author_email": "mason.collins@example.com",
+            "profile_image": "https://images.unsplash.com/photo-1516224498413-84ecf3a1e7fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+            "birthplace": "Los Angeles, USA",
+            "bio": "Avid photographer and travel lover sharing tips on tech and lenses. Enjoys capturing the beauty of nature and urban landscapes.",
+            "date_of_birth": "1987-12-02",
+            "social_media": {
+              "twitter": "https://twitter.com/masoncollins",
+              "facebook": "https://facebook.com/masoncollins",
+              "linkedin": "https://linkedin.com/in/masoncollins"
+            },
+            "website": "https://masoncollinsphotography.com"
+          },
+          {
+            "author_id": 24,
+            "author_name": "Amelia Parker",
+            "author_email": "amelia.parker@example.com",
+            "profile_image": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODl8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+            "birthplace": "Seattle, USA",
+            "bio": "Environmental advocate with a deep passion for sustainable technologies. Works towards promoting eco-friendly solutions to combat climate change.",
+            "date_of_birth": "1992-06-13",
+            "social_media": {
+              "twitter": "https://twitter.com/amelia_parker",
+              "facebook": "https://facebook.com/amelia.parker",
+              "linkedin": "https://linkedin.com/in/amelia-parker"
+            },
+            "website": "https://amelia-parkersustainability.com"
+          },
+          {
+            "author_id": 25,
+            "author_name": "James Miller",
+            "author_email": "james.miller@example.com",
+            "profile_image": "https://images.unsplash.com/photo-1527082395-e939b847da0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+            "birthplace": "Chicago, USA",
+            "bio": "Fitness junkie with a mission to inspire people to move and stay healthy. Enjoys sharing workout routines and healthy living tips.",
+            "date_of_birth": "1989-03-09",
+            "social_media": {
+              "twitter": "https://twitter.com/jamesmillerfitness",
+              "facebook": "https://facebook.com/jamesmillerfitness",
+              "linkedin": "https://linkedin.com/in/jamesmillerfitness"
+            },
+            "website": "https://jamesmillerfitness.com"
+          },
+                
+      
             {
-              "user_id": 21,
-              "first_name": "Sophia",
-              "last_name": "Turner",
-              "email": "sophia.turner@example.com",
-              "profile_picture": "https://example.com/images/sophia-turner.jpg",
-              "bio": "Data scientist with a keen interest in AI and machine learning.",
-              "favorite_category": "AI & Robotics",
-              "joining_date": "2023-11-02"
+              "author_id": 26,
+              "author_name": "Chloe Evans",
+              "author_email": "chloe.evans@example.com",
+              "profile_image": "https://images.unsplash.com/photo-1541271696563-3be2f555fc4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fGhhcHB5JTIwZmFjZXxlbnwwfDF8MHx8fDI%3D",
+              "birthplace": "Paris, France",
+              "bio": "Culinary expert sharing delicious and easy-to-follow recipes for all ages. Passionate about making cooking accessible for everyone.",
+              "date_of_birth": "1985-11-10",
+              "social_media": {
+                "twitter": "https://twitter.com/chloe_evans",
+                "facebook": "https://facebook.com/chloeevans",
+                "linkedin": "https://linkedin.com/in/chloe-evans"
+              },
+              "website": "https://chloe_evanscooking.com"
             },
             {
-              "user_id": 22,
-              "first_name": "Noah",
-              "last_name": "Adams",
-              "email": "noah.adams@example.com",
-              "profile_picture": "https://example.com/images/noah-adams.jpg",
-              "bio": "Health tech researcher passionate about digital health solutions.",
-              "favorite_category": "Health & Wellness",
-              "joining_date": "2023-11-07"
+              "author_id": 27,
+              "author_name": "Ethan King",
+              "author_email": "ethan.king@example.com",
+              "profile_image": "https://images.unsplash.com/photo-1611695434369-a8f5d76ceb7b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxoYXBweSUyMGZhY2V8ZW58MHwxfDB8fHwy",
+              "birthplace": "San Francisco, USA",
+              "bio": "Entrepreneur passionate about startups, business growth, and marketing strategies. Loves exploring the latest trends in digital marketing and innovation.",
+              "date_of_birth": "1990-02-17",
+              "social_media": {
+                "twitter": "https://twitter.com/ethan_king",
+                "facebook": "https://facebook.com/ethanking",
+                "linkedin": "https://linkedin.com/in/ethan-king"
+              },
+              "website": "https://ethan-king-business.com"
             },
             {
-              "user_id": 23,
-              "first_name": "Mason",
-              "last_name": "Collins",
-              "email": "mason.collins@example.com",
-              "profile_picture": "https://example.com/images/mason-collins.jpg",
-              "bio": "Avid photographer and travel lover sharing tips on tech and lenses.",
-              "favorite_category": "Photography",
-              "joining_date": "2023-11-11"
+              "author_id": 28,
+              "author_name": "Zoe Young",
+              "author_email": "zoe.young@example.com",
+              "profile_image": "https://images.unsplash.com/photo-1615863712239-becde744591a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxoYXBweSUyMGZhY2V8ZW58MHwxfDB8fHwy",
+              "birthplace": "Austin, USA",
+              "bio": "Astronomy enthusiast, covering the latest space discoveries and missions. Obsessed with stargazing and exploring the mysteries of the universe.",
+              "date_of_birth": "1993-03-05",
+              "social_media": {
+                "twitter": "https://twitter.com/zoeyoungspace",
+                "facebook": "https://facebook.com/zoeyoungspace",
+                "linkedin": "https://linkedin.com/in/zoeyoung"
+              },
+              "website": "https://zoeyoungspace.com"
             },
             {
-              "user_id": 24,
-              "first_name": "Amelia",
-              "last_name": "Parker",
-              "email": "amelia.parker@example.com",
-              "profile_picture": "https://example.com/images/amelia-parker.jpg",
-              "bio": "Environmental advocate with a deep passion for sustainable technologies.",
-              "favorite_category": "Sustainability",
-              "joining_date": "2023-11-15"
+              "author_id": 29,
+              "author_name": "Lily Wright",
+              "author_email": "lily.wright@example.com",
+              "profile_image": "https://images.unsplash.com/photo-1636308600707-e19abecd6246?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIxfHxoYXBweSUyMGZhY2V8ZW58MHwxfDB8fHwy",
+              "birthplace": "New York, USA",
+              "bio": "Fashion blogger always seeking new ways to combine elegance and comfort. Obsessed with sustainable fashion and showcasing how to look chic while being eco-friendly.",
+              "date_of_birth": "1988-09-21",
+              "social_media": {
+                "twitter": "https://twitter.com/lilywrightfashion",
+                "facebook": "https://facebook.com/lilywrightfashion",
+                "linkedin": "https://linkedin.com/in/lilywright"
+              },
+              "website": "https://lilywrightfashion.com"
             },
             {
-              "user_id": 25,
-              "first_name": "James",
-              "last_name": "Miller",
-              "email": "james.miller@example.com",
-              "profile_picture": "https://example.com/images/james-miller.jpg",
-              "bio": "Fitness junkie with a mission to inspire people to move and stay healthy.",
-              "favorite_category": "Fitness",
-              "joining_date": "2023-11-20"
-            },
-            {
-              "user_id": 26,
-              "first_name": "Chloe",
-              "last_name": "Evans",
-              "email": "chloe.evans@example.com",
-              "profile_picture": "https://example.com/images/chloe-evans.jpg",
-              "bio": "Culinary expert sharing delicious and easy-to-follow recipes for all ages.",
-              "favorite_category": "Food & Cooking",
-              "joining_date": "2023-12-01"
-            },
-            {
-              "user_id": 27,
-              "first_name": "Ethan",
-              "last_name": "King",
-              "email": "ethan.king@example.com",
-              "profile_picture": "https://example.com/images/ethan-king.jpg",
-              "bio": "Entrepreneur passionate about startups, business growth, and marketing strategies.",
-              "favorite_category": "Business & Entrepreneurship",
-              "joining_date": "2023-12-05"
-            },
-            {
-              "user_id": 28,
-              "first_name": "Zoe",
-              "last_name": "Young",
-              "email": "zoe.young@example.com",
-              "profile_picture": "https://example.com/images/zoe-young.jpg",
-              "bio": "Astronomy enthusiast, covering the latest space discoveries and missions.",
-              "favorite_category": "Science & Space",
-              "joining_date": "2023-12-10"
-            },
-            {
-              "user_id": 29,
-              "first_name": "Lily",
-              "last_name": "Wright",
-              "email": "lily.wright@example.com",
-              "profile_picture": "https://example.com/images/lily-wright.jpg",
-              "bio": "Fashion blogger always seeking new ways to combine elegance and comfort.",
-              "favorite_category": "Fashion & Style",
-              "joining_date": "2023-12-15"
-            },
-            {
-              "user_id": 30,
-              "first_name": "Lucas",
-              "last_name": "Johnson",
-              "email": "lucas.johnson@example.com",
-              "profile_picture": "https://example.com/images/lucas-johnson.jpg",
-              "bio": "Financial analyst, focused on emerging markets and investment opportunities.",
-              "favorite_category": "Finance & Investing",
-              "joining_date": "2023-12-20"
+              "author_id": 30,
+              "author_name": "Lucas Johnson",
+              "author_email": "lucas.johnson@example.com",
+              "profile_image": "https://images.unsplash.com/photo-1634484640014-a6e3ae27542c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUxfHxoYXBweSUyMGZhY2V8ZW58MHwxfDB8fHwy",
+              "birthplace": "Boston, USA",
+              "bio": "Financial analyst, focused on emerging markets and investment opportunities. Passionate about helping others make informed decisions in the world of finance.",
+              "date_of_birth": "1984-07-30",
+              "social_media": {
+                "twitter": "https://twitter.com/lucasjohnsonfinance",
+                "facebook": "https://facebook.com/lucasjohnsonfinance",
+                "linkedin": "https://linkedin.com/in/lucasjohnsonfinance"
+              },
+              "website": "https://lucasjohnsonfinance.com"
             }
           ]
           
